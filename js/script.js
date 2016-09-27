@@ -53,6 +53,20 @@ jQuery(function($) {
 
                                     }
         });
+            
+        $('.featured_slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 800,
+            arrows: false,
+            slidesToShow: 1,
+            slide: 'div',
+            autoplay: true,
+            fade: true,
+            autoplaySpeed: 5000,
+            cssEase: 'linear'
+        });
+
     });
 });
 

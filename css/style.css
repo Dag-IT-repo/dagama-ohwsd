@@ -51,14 +51,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 /* ------ Carousel ----- */
 
 #carousel {
-    background: url('../images/logo_home\.jpg') no-repeat center center fixed; 
+    background: url('../images/logo_home\.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size:contain;
     overflow-x: hidden;
     margin-bottom:0;
-    height: 500px;    
+    height: 500px;
 }
 
 #carousel .carousel-caption {
@@ -272,8 +272,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 
 .service-item-header {
     background-color: #27ae60;
-    margin-left: -15px; 
-    padding: 16px 200px; 
+    padding: 16px 250px 16px 200px;
     font-weight: bold;
     display: inline-block;
 }
@@ -284,6 +283,26 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     height: 67px;
     color: #fff; 
 
+}
+.panel-default .panel-body {
+    font-weight: 600;
+}
+.feature_image img {
+    max-height: 200px;
+}
+.panel-body {
+    font-size: 15px;
+}
+.panel-success  {
+    min-height: 250px;
+}
+.panel-success .panel-heading {
+    color: black;
+    background-color: #27ae60;
+    padding: 20px 5px 10px 5px;
+}
+.panel-heading {
+    font-weight: bold;
 }
 
 .team_hr {
@@ -302,7 +321,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 
 .text-center > .hr_heading {
-    Font-size: 30px;
+    Font-size: 27px;
     font-weight: 700;
     color: #035382
 }
@@ -452,24 +471,30 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     color: #333333; 
     padding: 10px;
 }
-
-.blog_header {
+.service_header {
     font-weight: bold; 
-    font-size: 16px; 
+    font-size: 16px;
+    margin-left: 15px;
+    color: #27ae60;
 }
-
-.blog_text {
+.service_text {
     text-align: justify; 
-    font-size: 14px; 
-    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 30px;
     margin-left: 0;
 }
-
 .service-image  {
     height: 150px;
     width: 300px;
 }
+.service-info img   {
+    margin-left: -5px;
+    margin-top: -10px;
+}
+.service-info  .service_header {
 
+}
 #contact {
 	margin-top:100px; 
 	border-top: 1px solid #cccccc; 
@@ -507,7 +532,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 .full-sec_txt {
 	border-left:2px solid #ffffff; 
-	min-height:160px;
+	min-height:70px;
 }
 .twitter_user {
 	color: #FFFF33; 
@@ -599,7 +624,7 @@ ul.project-gallery  li  a img:hover {
 
 .full-sec-blue {
     background-color: #035382;
-    min-height:200px;
+    min-height:100px;
     font-family:  'Open Sans', sans-serif;
     font-size:20px;
     color:#ffffff;
@@ -792,4 +817,47 @@ ul.project-gallery  li  a img:hover {
 
 .member-thumb    {
     max-height: 260px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.service_slider   {
+    float:left;
+    display:inline;
+    width:50%;
+    height:100%;
+    display:inline;
+    float:left;
+    text-align:center;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.service_slider .slick-dots li button:before{content:"•";font-size:28px;}
+.service_slider .slick-dots li.slick-active button:before{opacity:0.75;}
+.feature_image  > img {
+    display:inline;
+    width:100%;
+    height:5000px;
+}
+.service-info   {
+    margin-left: -290px;
 }
