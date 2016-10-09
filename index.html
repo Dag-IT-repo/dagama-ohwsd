@@ -9,12 +9,12 @@
         <link rel="shortcut icon" type="image/png" href="images/logo-small.jpg">
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
         <link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
-        <link href="css/fontawesome/css/font-awesome.css" rel='stylesheet' type='text/css'>
-        <link href="css/fontawesome/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
         <link href="css/animate.min.css" rel='stylesheet' type='text/css'>
         <link href="js/colorbox/colorbox.css"  rel='stylesheet' type='text/css'>
         <link href="css/style.css"  rel='stylesheet' type='text/css'>
         <link href="css/slick.css"  rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="/maps/documentation/javascript/demos/demos.css">
 
         <style>
             body {
@@ -29,8 +29,9 @@
     </head>
     
 <body>
+    <section id="top">
     <div class="top-menu">
-        <div class="top-bar" id="top">
+        <div class="top-bar">
             <div class="container">
                 <div class="subheader">
                     <div class="pull-left" id="phone">
@@ -57,10 +58,10 @@
                     </div>
                     <div class="navbar-collapse collapse" id="nav-bar">
                         <ul class="nav navbar-nav navbar-right" style="margin-top: 30px">
-                            <li class="active"><a href="#top">HOME</a></li>
-                            <li><a href="#blog">SERVICES</a></li>
-                            <li><a href="#about">ABOUT</a></li>
-                            <li><a href="#contact">CONTACT</a></li>
+                            <li><a href="#top" class="smoothScroll">HOME</a></li>
+                            <li><a href="#services" class="smoothScroll">SERVICES</a></li>
+                            <li><a href="#about" class="smoothScroll">ABOUT</a></li>
+                            <li><a href="#contact" class="smoothScroll">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,7 +78,7 @@
                     <div class="container">
                         <div class="carousel-caption">
                             <p>
-                                <a class="btn btn-lg btn-blue" href="#blog" role="button">VIEW SERVICES</a>
+                                <a class="btn btn-lg btn-blue" href="#services" role="button">VIEW SERVICES</a>
                             </p>
                         </div>
                     </div>
@@ -104,12 +105,13 @@
             <div class="container">
                 <div class="slogan text-center">
                     <span class="home-header wow bounceIn" data-wow-delay="0.6s">DA GAMA</span><br />
-                    <span class="home-subheader wow bounceIn" data-wow-delay="0.6s">Occapational Health, Wellness, Safety &amp; Disability</span>
+                    <span class="home-subheader wow bounceIn" data-wow-delay="0.6s">Occupational Health, Wellness, Safety &amp; Disability</span>
                 </div>
             </div>
         </div>
+    </section>
 
-        <section id="blog" class="container">
+        <section id="services" class="container">
             <div class="row">
                 <div class="line-header">
                     <div class="text-center">
@@ -144,8 +146,6 @@
                     <div class="service-info panel panel-default">
                         <div class="panel-heading">
                             <span class="fa-stack fa-lg">
-                                <!--<i class="fa fa-square fa-stack-2x"></i>-->
-                                <!--<i class="fa fa-bolt fa-stack-1x fa-inverse"></i>-->
                                 <img src="images/health_small.png" alt="">
                             </span>
                             <span class="service_header">OCCUPATIONAL HEALTH</span>
@@ -186,8 +186,6 @@
                     <div class="service-info panel panel-default">
                         <div class="panel-heading">
                             <span class="fa-stack fa-lg">
-                                <!--<i class="fa fa-square fa-stack-2x"></i>-->
-                                <!--<i class="fa fa-heart-o fa-stack-1x fa-inverse"></i>-->
                                 <img src="images/wellness_small.png" alt="">
                             </span>
                             <span class="service_header">WELLNESS</span>
@@ -225,8 +223,6 @@
                     <div class="service-info panel panel-default">
                         <div class="panel-heading">
                             <span class="fa-stack fa-lg">
-                                <!--<i class="fa fa-square fa-stack-2x"></i>-->
-                                <!--<i class="fa fa-plus-square fa-stack-1x fa-inverse"></i>-->
                                 <img src="images/safety_small.png" alt="">
                             </span>
                             <span class="service_header">SAFETY</span>
@@ -261,8 +257,6 @@
                     <div class="service-info panel panel-default">
                         <div class="panel-heading">
                             <span class="fa-stack fa-lg">
-                                <!--<i class="fa fa-square fa-stack-2x"></i>-->
-                                <!--<i class="fa fa-wheelchair fa-stack-1x fa-inverse"></i>-->
                                 <img src="images/disability_small.png" alt="">
                             </span>
                             <span class="service_header">DISABILITY</span>
@@ -349,67 +343,6 @@
                     </div>
                 </div>                    
             </div>
-
-            <div class="hidden team">
-                <div class="clearfix container">
-                    <div class="line-header head_contact">
-                        <div class="text-center">
-                            <hr class="team_hr team_hr_left hr_gray" /><span class="hr_heading">TEAM</span>
-                            <hr class="team_hr team_hr_right hr_gray" />
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-3 team-outer">
-                            <div class="text-center">
-                                <p class="team-inner-header">Feya</p>
-                                <p class="team-inner-subtext">Director</p>
-                                <div class="member-thumb">
-                                    <img src="images/member1.jpg" class="img-responsive" alt="Team Member Image" />
-                                </div>
-                            </div>
-                            <div class="about-more text-center">
-                                <a href="#about-feya" data-toggle="modal" class="btn btn-more text-uppercase wow bounceIn">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 team-outer">
-                            <div class="text-center">
-                                <p class="team-inner-header">Peter</p>
-                                <p class="team-inner-subtext">SHEQ Rep</p>
-                                <div class="member-thumb">
-                                    <img src="images/peter.jpg" class="img-responsive" alt="Team Member Image" />
-                                </div>
-                            </div>
-                            <div class="about-more text-center">
-                                <a href="#about-peter" data-toggle="modal" class="btn btn-more text-center text-uppercase wow bounceIn">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 team-outer">
-                            <div class="text-center">
-                                <p class="team-inner-header">Jason</p>
-                                <p class="team-inner-subtext">Business Coach</p>
-                                <div class="member-thumb">
-                                    <img src="images/jason.gif" class="img-responsive" alt="Team Member Image" />
-                                </div>
-                            </div>
-                            <div class="about-more text-center">
-                                <a href="#about-jason" data-toggle="modal" class="btn btn-more text-center text-uppercase wow bounceIn">View profile</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-3 team-outer">
-                            <div class="text-center">
-                                <p class="team-inner-header">Dr. Letoaba</p>
-                                <p class="team-inner-subtext">Doctor</p>
-                                <div class="member-thumb">
-                                    <img src="images/member1.jpg" class="img-responsive" alt="Team Member Image" />
-                                </div>
-                            </div>
-                            <div class="about-more text-center">
-                                <a href="#about-letoaba" data-toggle="modal" class="btn btn-more text-center text-uppercase wow bounceIn">View profile</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="full-sec-blue">
                 <div class="container">
                     <div class="row" style="margin-top:20px;">
@@ -432,18 +365,19 @@
             
         <section id="contact">
             <div class="container">
-                <div class="line-header head_contact">
-                    <div class="text-center">
-                        <hr class="team_hr team_hr_left hr_gray" /><span class="hr_heading">CONTACT</span>
-                        <hr class="team_hr team_hr_right hr_gray" />
+                <div class="row">
+                    <div class="line-header head_contact">
+                        <div class="text-center">
+                            <hr class="team_hr team_hr_left hr_gray" /><span class="hr_heading">CONTACT</span>
+                            <hr class="team_hr team_hr_right hr_gray" />
+                        </div>
                     </div>
                 </div>
-                <div class="row hidden">
+                <div class="row">
                     <div class="col-md-12">
                         <div class="h2 text-center">Find us here</div><br />
-                        <div class="contact-map" id="map-canvas"> </div>
-                        <div class="clearfix"></div>
-                        <i>You can find us at No. 19, van Eck Street, Chamdor, Krugersdorp, Gauteng</i>
+                        <div id="map"></div>
+                         <i>You can find us at No. 19, van Eck Street, Chamdor, Krugersdorp, Gauteng</i>
                     </div>
                 </div>
                 <div class="row">
@@ -474,19 +408,23 @@
                     <div class="col-md-1"></div>
                     <div class="contact_right col-md-5">
                         <div id="map-marker" class="pull-left">
-                            <i class="fa fa-map-marker fa-2x"></i>
+                            <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
                             &nbsp; No. 19, van Eck Street, Chamdor, Krugersdorp
                         </div><br />
+                        <div id="map-marker" class="pull-left">
+                            <i class="fa fa-wpforms fa-2x" aria-hidden="true"></i>
+                            &nbsp; PO Box 3928 Witbeek 1729
+                        </div><br /><br />
                         <div id="phone" class="pull-left">
-                            <i class="fa fa-phone fa-2x"></i>
+                            <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
                             &nbsp; 083 3252 660
                         </div><br /><br />
                         <div id="email" class="pull-left">
-                            <i class=" fa fa-envelope-o fa-2x"></i>
+                            <i class=" fa fa-envelope-o fa-2x" aria-hidden="true"></i>
                             &nbsp; info@dagamaohwsd.co.za
                         </div><br />
                         <div id="globe" class="pull-left">
-                            <i class="fa fa-globe fa-2x"></i>
+                            <i class="fa fa-globe fa-2x" aria-hidden="true"></i>
                             &nbsp; www.dagamaohwsd.co.za
                         </div>
                     </div>  
@@ -494,32 +432,28 @@
             </div>
 
             <!-- Google Map -->
-            <script src="http://maps.googleapis.com/maps/api/js"></script>
-            <!-- Google Map Init-->
             <script>
-                var myCenter = new google.maps.LatLng(-26.0981694, 27.8840969);
-                var marker;
+              function initMap() {
+                var myLatLng = {lat: -26.1463786, lng: 27.8062711};
 
-                function initialize() {
-                    var mapOptions = {
-                        center: myCenter,
-                        zoom: 8,
-                        mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-                    var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+                // Create a map object and specify the DOM element for display.
+                var map = new google.maps.Map(document.getElementById('map'), {
+                  center: myLatLng,
+                  scrollwheel: false,
+                  zoom: 12
+                });
 
-                    var marker = new google.maps.Marker({
-                        position: myCenter,
-                        animation: google.maps.Animation.BOUNCE
-                    });
-
-                    marker.setMap(map);
-                }
-                google.maps.event.addDomListener(window, 'load', initialize);
+                // Create a marker and set its position.
+                var marker = new google.maps.Marker({
+                  map: map,
+                  position: myLatLng,
+                  title: 'Da Gama OHWSD'
+                });
+              }
             </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB5QZ2jnv2_QFJHJI2aKUFziPd0Hf3zBwE&callback=initMap" async defer></script>
         </section>
             
-          
         <div class="footer">
             <div class="container">
                 <div class="row">
@@ -547,127 +481,14 @@
                         </div>
                         <div class="footer_bottom_content">
                             <span><br />
-                                Copyright © 2015 | Da Gama Occupational Health, Welness, Safety &amp; Disability | Design: <a rel="nofollow" href="http://www.syntax-sys.co.za" target="_parent">Syntax Systems</a>
+                                Copyright © 2015 | Da Gama Occupational Health, Wellness, Safety &amp; Disability | Design: <a rel="nofollow" href="http://www.syntax-sys.co.za" target="_parent">Syntax Systems</a>
                             </span>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <!--Team Modals-->
-        <div class="modal fade" id="about-feya" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <form class="form-horizontal" role="form">
-                        <div class="modal-header text-center">
-                            <h4>Feya's Profile</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div>
-                                Feya completed her Formal Higher Education and Training at Lebone College in 1988 acquiring her Diploma in General Nursing. In 1989 she acquired her Diploma Midwifery after attending Coronationville Nursing College. <br />
-                                Feya furthered her schooling at Wits Technikon between 2000-2001 and acquired another BTech in Occupational Health and a Diploma in Nursing Management. <br />
-                                During 2010, studying at UNISA Feya acquired her National Diploma Safety Management and in 2014 her BTech Safety Management. Currently Feya is in the process of completing her Dispensing license at MEDUNSA.
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a class="btn btn-danger" data-dismiss="modal">Close</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="modal fade" id="about-peter" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <form class="form-horizontal" role="form">
-                        <div class="modal-header text-center">
-                            <h4>Peter's Profile</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div>
-                                <ul>
-                                    <li>Ensuring that business complies with all relevant SHEQ legislations, company policies and procedures, minimum requirements and permit requirements.</li>
-                                    <li>Ensuring legal appointments.</li>
-                                    <li>Ensuring that internal organisational audits are conducted.</li>
-                                    <li>Specialising in the Co-ordination and conducting the training of employees in the she process and procedures.</li>
-                                    <li>Conduct accident and incident investigation.</li>
-                                    <li>Motivating people to work safely.</li>
-                                    <li>Monitoring and reviewing she policy and practices</li>
-                                    <li>Carrying out plant weekly she audits.</li>
-                                    <li>Assist in the appointment of safety representatives for all departments.</li>
-                                    <li>Co-ordinating the removal of hazardous wastes.</li>
-                                    <li>Reviewing the risk assessments annually.</li>
-                                    <li>Conducting of emergency fire drills.</li>
-                                    <li>Managing behaviour based safety program including observations.</li>
-                                    <li>Co-ordinating and chairing the safety committee meetings</li>
-                                    <li>Conducting safety induction training to visitors, contractors and new employees.</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a class="btn btn-danger" data-dismiss="modal">Close</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>     
-        <div class="modal fade" id="about-jason" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <form class="form-horizontal" role="form">
-                        <div class="modal-header text-center">
-                            <h4>Jason's Profile</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div>
-                                Jason has been coaching since 2009 and training since 2001. He is a Natural Motivator, likeable, easy to relate to and a brilliant Transformational, Youth, Life & Business Coach.
-                                He is an excellent communicator and comes with many years of corporate experience. He has a method of communication which clearly reaches understanding across race, gender, religious and sexuality barriers. 
-                                He is also an accredited Learning and Development Specialist, Assessor and Moderator. His versatility allows for Corporate, Personal, Group or Individual - formal, informal and casual approaches. Money is not always everything, 
-                                Jason passionately does and believes in coaching. His background is vast and includes management and graduate development. He facilitated SETA accredited qualifications and has an excellent track record in his manner / method of delivery.
-                                Education and Professional Affiliation:
-                                <ul>
-                                    <li>Member of COMENSA (Coaches and Mentors of South Africa) Life and Business Coaching (OBS - UJ).</li>
-                                    <li>Assessor</li>
-                                    <li>Moderator</li>
-                                    <li>Facilitator</li>
-                                    <li>Trainer</li>
-                                    <li>Trainer Motivational Speaker</li>
-                                </ul>    
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a class="btn btn-danger" data-dismiss="modal">Close</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>   
-        <div class="modal fade" id="about-letoaba" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <form class="form-horizontal" role="form">
-                        <div class="modal-header text-center">
-                            <h4>Dr. Letoaba's Profile</h4>
-                        </div>
-                        <div class="modal-body">
-                            <div>
-                                <ul>
-                                    <li>Medical Surveyor</li>
-                                    <li>Disability Manager</li>
-                                    <li>Health Risk Assessor</li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <a class="btn btn-danger" data-dismiss="modal">Close</a>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> 
-
+    
         <!--JS Scripts-->
         <script src="js/jquery.min.js" type="text/javascript"></script>
         <script src="js/bootstrap.min.js" type="text/javascript"></script>

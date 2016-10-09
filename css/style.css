@@ -51,14 +51,14 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 /* ------ Carousel ----- */
 
 #carousel {
-    background: url('../images/logo_home\.jpg') no-repeat center center fixed;
+    background: url('../images/logo_home.jpg') no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size:contain;
     overflow-x: hidden;
     margin-bottom:0;
-    height: 500px;
+    height: 700px;
 }
 
 #carousel .carousel-caption {
@@ -529,6 +529,10 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
 }
 .contact_right i {
     color: #0f67a9;
+}
+#map {
+  height: 380px;
+  border: 10px solid #efefef;
 }
 .full-sec_txt {
 	border-left:2px solid #ffffff; 
