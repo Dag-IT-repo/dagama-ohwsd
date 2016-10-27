@@ -1,9 +1,8 @@
 <?php
 if(isset($_POST['email'])) {
      
-    $email_to = "damiane.dagama@gmail.com";  
+    $email_to = "info@dagamaohwsd.co.za";
     $email_subject = "Da Gama OHWSD - Contact Form Enquiry";
-     
      
     function died($error) {
         echo "We are very sorry, but there were error(s) found with the form you submitted. ";
